@@ -58,7 +58,7 @@ As with testing, you don’t need npx to run coverage when invoking it from a te
 
 I initially tried using [tape-es](https://github.com/vanillaes/tape-es) but I ran into a bunch of problems due to it running tests in parallel. If you’re smarter than I am, you might want to give it a shot and see if it works for you.
 
-The tape readme recommends using [bable-tape-runner](https://www.npmjs.com/package/babel-tape-runner) and [buble-tape-runner](https://www.npmjs.com/package/buble-tape-runner) but my stuff doesn’ť use or need babel/buble/Bublé. If yours does, those might be the right test runners for you.
+The tape readme recommends using [bable-tape-runner](https://www.npmjs.com/package/babel-tape-runner) and [buble-tape-runner](https://www.npmjs.com/package/buble-tape-runner) but my stuff doesn’t use or need babel/buble/Bublé. If yours does, those might be the right test runners for you.
 
 ## Like this? Fund us!
 
