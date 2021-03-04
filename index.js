@@ -25,6 +25,12 @@ for (let i = 0; i < tests.length; i++) {
   try {
     await exec(`node ${test}`, { cwd: process.cwd()} )
   } catch (error) {
-    // Ignore; we don’t want to fail on test errors.
+    if (error.stderr !== '') {
+      process.stdout.write(`Bail out! ${error}\n`)
+      process.nextTick(() => {
+        console.error(error.stderr)
+        process.exit(1)
+      })
+    }
   }
 }
