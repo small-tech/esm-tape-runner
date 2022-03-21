@@ -4,7 +4,7 @@ Basic test runner for [tape](https://github.com/substack/tape) that supports ECM
 
 Runs your tests in isolation, one after the other.
 
-I originally created this module because [tape runner did not support ESM files](https://github.com/substack/tape/issues/514). [This has now been fixed](https://github.com/substack/tape/pull/547) and, so:
+I originally created this module because [tape runner did not support ESM files](https://github.com/substack/tape/issues/514). [This has now been fixed](https://github.com/substack/tape/pull/547) so:
 
 __For most purposes, you can simply use Tape directly now without need of this module.__
 
