@@ -1,6 +1,6 @@
 {
   "name": "@small-tech/esm-tape-runner",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Basic test runner for tape that supports ECMAScript Modules (ESM; es6 modules). Runs your tests in isolation, one after the other.",
   "type": "module",
   "bin": {
